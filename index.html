@@ -1,0 +1,50 @@
+{% extends '_base.html' %}
+
+{% block header_content %}
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>App-Template</h1>
+                <h2>fight me.</h2>
+            </div>
+        </div>
+    </div>
+</header>
+{% endblock %}
+
+
+{% block content %}
+<h1>Tarbell!</h1>
+
+<div id="story-meta">
+    <p class="byline">by <span></span></p>
+    <p class="dateblock">
+        <span class="date"></span>
+        <span class="time"></span>
+    </p>
+</div>
+
+<a class="comment-button comment-button-bubble comment-drawer-toggle" href="javascript:">
+    <span class="comment-count"></span>
+</a>
+
+<a class="comment-button comment-button-article comment-drawer-toggle" data-toggle="modal" data-backdrop="static" data-target="#share-modal">
+    <span class="comment-count"></span>
+    <span class="comment-label">Share / Discuss</span>
+</a>
+
+<h2>JST example</h2>
+<p id="template-example"></p>
+{% endblock %}
+
+
+{% block wide_content %}
+<div class="row">
+    <div class="col-md-12">
+        <h2>Footer</h2>
+        <p>lorem ipsum</p>
+    </div>
+</div>
+{% endblock %}
+
